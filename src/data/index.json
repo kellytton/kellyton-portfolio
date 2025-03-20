@@ -1,28 +1,127 @@
 {
-    "skills": [
+    "skills_development": [
         {
             "id": "1",
-            "src": "./img/product-chain-1.png",
-            "title": "Front-End",
-            "description": "Lorem ipsum dolor sit amet, consetetur adipiscing elit. Suspendisse varius eim in eros elementum tristique"
+            "src": "./img/Python_logo.png",
+            "title": "Python"
         },
         {
             "id": "2",
-            "src": "./img/tag-1.png",
-            "title": "Back-End",
-            "description": "Lorem ipsum dolor sit amet, consetetur adipiscing elit. Suspendisse varius eim in eros elementum tristique"
+            "src": "./img/HTML_logo.png",
+            "title": "HTML"
         },
         {
             "id": "3",
-            "src": "./img/feather-pen-2.png",
-            "title": "UI & UX Design",
-            "description": "Lorem ipsum dolor sit amet, consetetur adipiscing elit. Suspendisse varius eim in eros elementum tristique"
+            "src": "./img/CSS_Logo.png",
+            "title": "CSS"
         },
         {
             "id": "4",
-            "src": "./img/feather-pen-1.png",
-            "title": "Webflow Development",
-            "description": "Lorem ipsum dolor sit amet, consetetur adipiscing elit. Suspendisse varius eim in eros elementum tristique"
+            "src": "./img/JavaScript_logo.png",
+            "title": "JavaScript"
+        },
+        {
+            "id": "5",
+            "src": "./img/C_logo.png",
+            "title": "C"
+        },
+        {
+            "id": "6",
+            "src": "./img/CPP_logo.png",
+            "title": "C++"
+        },
+        {
+            "id": "7",
+            "src": "./img/Bootstrap_logo.svg.png",
+            "title": "Bootstrap"
+        },
+        {
+            "id": "8",
+            "src": "./img/React_Logo.png",
+            "title": "ReactJS"
+        },
+        {
+            "id": "9",
+            "src": "./img/Java_Logo.png",
+            "title": "Java"
+        }
+    ],
+    "skills_database": [
+        {
+            "id": "1",
+            "src": "./img/Postgresql_logo.png",
+            "title": "PostgreSQL"
+        },
+        {
+            "id": "2",
+            "src": "./img/SQLite_logo.png",
+            "title": "SQLite"
+        }
+    ],
+    "portfolio": [
+        {
+            "id": "1",
+            "title": "Sentiment Analyzer",
+            "description": "During my Data and Software Engineering internship at SMX, I developed a sentiment analyzer with geospatial plotting features. This tool was designed to analyze political social media posts, classifying them into sentiments (positive, negative, or neutral). It also offered various models for analyzing the data.",
+            "tools": "GitLab, Python, AWS (Workspace, Amazon Translate), DBeaver (PostgreSQL), VADER, HuggingFace, spaCy, ReGex, Polars, Pyproj, Shapely, Cartopy",
+            "link_view": "",
+            "link": ""
+        },
+        {
+            "id": "2",
+            "title": "EduPortal",
+            "description": "EduPortal is a data-intensive academic management system designed to securely handle and analyze student, instructor, course, and departmental data. It features tools for GPA analysis, detailed enrollment and performance reports, and strict access controls to ensure data integrity. The system implements real-world academic policies to provide a reliable solution for managing institutional operations.",
+            "tools": "Github, ReactJS, MUI, Python, Axios, Flask, SQLAlchemy, SQLite, Pandas",
+            "link_view": "View in Github",
+            "link": "https://github.com/jaguan2/eduPortal"
+        },
+        {
+            "id": "3",
+            "title": "Purrfect Path",
+            "description": "In a team of 3, we developed a comprehensive class scheduling platform for students to search for courses, plan and create schedules, compare their courses with friends, and display their schedules and friends list on user pages.",
+            "tools": "GitHub, HTML/CSS/JavaScript, Python, SQLAlchemy, Flask, PostgreSQL",
+            "link_view": "View in Github",
+            "link": "https://github.com/jaguan2/PurrfectPath"
+        },
+        {
+            "id": "4",
+            "title": "RUSH: Rapid Unix SHell",
+            "description": "I engineered a Unix shell in C to execute built-in commands (such as exit, cd, path) and facilitate external commands through child processes with the capacity for parallel command execution. The implementation contains robust output redirection functionality, enabling users to redirect command outputs to files, supporting both file overwriting and error handling for access issues.",
+            "tools": "C, Linux",
+            "link_view": "View in Github",
+            "link": "https://github.com/kellytton/RUSH-Rapid-Unix-SHell"
+        },
+        {
+            "id": "5",
+            "title": "RAID-Mapping",
+            "description": "I developed a C program to perform RAID mapping for RAID levels 0, 1, 01, 10, 4, and 5, identifying the specific hard disk and stripe containing a queried sector, along with the disk containing a copy or parity for redundancy if required.",
+            "tools": "C, Linux",
+            "link_view": "View in Github",
+            "link": "https://github.com/kellytton/RAID-Mapping"
+        },
+        {
+            "id": "6",
+            "title": "Facial Recognition",
+            "description": "In this machine learning project, I implemented LeNet-5 CNN on Olivetti faces, benchmarking against PCA, LDA, and SVM. Analyzed performance across different test splits and visualized results with CMC curves and confusion matrices.",
+            "tools": "Python, Google Colab, scikit-learn, NumPy, Matplotlib, Seaborn",
+            "link_view": "View in Github",
+            "link": "https://github.com/kellytton/facial-recognition-machine-learning"
+        },
+        {
+            "id": "7",
+            "title": "Facial Recognition and Text Classification",
+            "description": "For this deep learning project, I worked in a team of 3. Along with facial recognition tasks, we developed an RNN-based IMDB text classifier, using data augmentation and evaluating performance on a reduced dataset. We explored with various RNN setups, visualizing training/validation plots and confusion matrices.",
+            "tools": "Python, Google Colab, scikit-learn, NumPy, TensorFlow, Matplotlib, Seaborn",
+            "link_view": "View in Github",
+            "link": "https://github.com/kellytton/facial-recognition-and-text-classification"
+        },
+        {
+            "id": "8",
+            "title": "Matching Game",
+            "description": "In this Everglow-themed matching game, I created a responsive website using HTML, CSS, and JavaScript, featuring vibrant designs inspired by the K-pop group. The game includes interactive animations and sound effects synced to Everglow’s music. Players match cards related to the group’s members while the game keeps track of the number of flips and matches made throughout the gameplay.",
+            "tools": "HTML/CSS/JavaScript",
+            "link_view": "View in Github",
+            "link": "https://github.com/kellytton/matching-game-2022"
         }
     ]
 }

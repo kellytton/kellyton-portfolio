@@ -46,7 +46,7 @@ function Navbar() {
     return (
         <nav className={`navbar ${navActive ? "active" : ""}`}>
             <div>
-                <img src="./img/logo.svg" alt="Logoipsum" />
+                <img src="./img/KELLY_TON_LOGO.png" alt="Logoipsum" />
             </div>
             <a className={`nav__hamburger ${navActive? "active" : ""}`} onClick={toggleNav}>
                 <span className="nav__hamburger__line"></span>
@@ -59,17 +59,16 @@ function Navbar() {
                         <Link onClick={closeMenu} activeClass="navbar--active-content" spy={true} smooth={true} offset={-70} duration={500} to="heroSection" className="navbar--content">Home</Link>
                     </li>
                     <li>
-                        <Link onClick={closeMenu} activeClass="navbar--active-content" spy={true} smooth={true} offset={-70} duration={500} to="MyPortfolio" className="navbar--content">Portfolio</Link>
+                        <Link onClick={closeMenu} activeClass="navbar--active-content" spy={true} smooth={true} offset={-70} duration={500} to="mySkills" className="navbar--content">Skills</Link>
                     </li>
                     <li>
                         <Link onClick={closeMenu} activeClass="navbar--active-content" spy={true} smooth={true} offset={-70} duration={500} to="AboutMe" className="navbar--content">About Me</Link>
                     </li>
                     <li>
-                        <Link onClick={closeMenu} activeClass="navbar--active-content" spy={true} smooth={true} offset={-70} duration={500} to="Testimonials" className="navbar--content">Testimonials</Link>
+                        <Link onClick={closeMenu} activeClass="navbar--active-content" spy={true} smooth={true} offset={-70} duration={500} to="MyPortfolio" className="navbar--content">Portfolio</Link>
                     </li>
                 </ul>
             </div>
-            <Link onClick={closeMenu} activeClass="navbar--active-content" spy={true} smooth={true} offset={-70} duration={500} to="Contact" className="btn btn-outline-primary">Contact Me</Link>
         </nav>
     );
 }
