@@ -1,4 +1,4 @@
-# Kellyton Portfolio
+# KellyTon Portfolio
 
 This project is a personal portfolio site built with [Create React App](https://github.com/facebook/create-react-app) to showcase my work and projects.
 
