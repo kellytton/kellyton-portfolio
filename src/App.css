@@ -201,6 +201,10 @@ h3 {
   justify-content: space-between;
   gap: 32px;
   background-color: var(--bg-shade);
+  background-image: url('../public/img/clouds.png');
+  background-attachment: fixed; /* makes the background stay fixed during scrolling */
+  background-repeat: no-repeat; /* no repeating */
+  background-size: cover; /* ensures the image covers the entire area */
 }
 
 .hero--section--content-box {
@@ -709,6 +713,10 @@ h3 {
   .hero--section--links {
     display: flex;
     align-items: center;
+  }
+  .hero--section {
+    background-size: 150%; /* make the image appear zoomed out */
+    background-position: center; /* keeps the image centered */
   }
 }
 
