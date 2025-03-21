@@ -184,6 +184,7 @@ h3 {
   font-weight: 400;
   line-height: 24px;
   cursor: pointer;
+  font-family: 'IBM Plex Mono', monospace;
 }
 
 .navbar--active-content {
@@ -231,6 +232,7 @@ h3 {
   font-weight: 700;
   line-height: 90px;
   align-self: stretch;
+  font-family: 'IBM Plex Mono', monospace;
 }
 
 .hero--section--title--color {
@@ -282,11 +284,12 @@ h3 {
   gap: 40px;
 }
 
-.skills--section--heading {
+.skills-section--heading {
   color: var(--heading-color);
   font-size: 64px;
   font-weight: 700;
   line-height: 77px;
+  font-family: 'IBM Plex Mono', monospace;
 }
 
 .skills--section--container {
@@ -594,8 +597,7 @@ h3 {
     padding: 25px;
   }
   .hero--section--title,
-  .skills-section--heading,
-  .section--heading {
+  .skills-section--heading {
     font-size: 35px;
     line-height: 40px;
   }
