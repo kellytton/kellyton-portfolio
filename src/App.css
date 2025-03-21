@@ -200,7 +200,7 @@ h3 {
   align-items: center;
   justify-content: space-between;
   gap: 32px;
-  background-color: var(--bg-shade);
+  background-color: #edb4b3;
   background-image: url('../public/img/clouds.png');
   background-attachment: fixed; /* makes the background stay fixed during scrolling */
   background-repeat: no-repeat; /* no repeating */
