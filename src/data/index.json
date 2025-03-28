@@ -42,6 +42,11 @@
         },
         {
             "id": "9",
+            "src": "./img/Electron_logo.svg.png",
+            "title": "Electron.js"
+        },
+        {
+            "id": "10",
             "src": "./img/Java_Logo.png",
             "title": "Java"
         }

@@ -16,7 +16,7 @@ export default function MySkills() {
                 {data?.skills_development?.map((item, index) => (
                     <div key={index} className="skills--section--card">
                         <div className="skills--section--img">
-                            <img src={item.src} alt="Product Chain"/>
+                            <img src={item.src} alt={item.title}/>
                         </div>
                         <div className="skills--section--card--content">
                             <h3 className="skills--section--title">
@@ -31,7 +31,7 @@ export default function MySkills() {
                 {data?.skills_database?.map((item, index) => (
                     <div key={index} className="skills--section--card">
                         <div className="skills--section--img">
-                            <img src={item.src} alt="Product Chain"/>
+                            <img src={item.src} alt={item.title}/>
                         </div>
                         <div className="skills--section--card--content">
                             <h3 className="skills--section--title">
