@@ -78,18 +78,26 @@
             "description": "EduPortal is a data-intensive academic management system designed to securely handle and analyze student, instructor, course, and departmental data. It features tools for GPA analysis, detailed enrollment and performance reports, and strict access controls to ensure data integrity. The system implements real-world academic policies to provide a reliable solution for managing institutional operations.",
             "tools": "Github, ReactJS, MUI, Python, Axios, Flask, SQLAlchemy, SQLite, Pandas",
             "link_view": "View in Github",
-            "link": "https://github.com/jaguan2/eduPortal"
+            "link": "https://github.com/kellytton/eduPortal"
         },
         {
             "id": "3",
+            "title": "Tic-Tac-Poké",
+            "description": "Tic-Tac-Poké is a Pokémon-themed twist on the classic Tic-Tac-Toe game, featuring pokeballs as player pieces. The game offers an intuitive experience with smooth animations, draw detection, and a winner screen. The design is crafted with assets created in Procreate, and the app’s structure and user interface were planned in Figma to ensure an enjoyable and visually appealing gameplay experience.",
+            "tools": "GitHub, ReactJS, Electron.js, Vite, HTML/CSS, Figma, Procreate",
+            "link_view": "View in Github",
+            "link": "https://github.com/kellytton/tic-tac-toe"
+        },
+        {
+            "id": "4",
             "title": "Purrfect Path",
             "description": "In a team of 3, we developed a comprehensive class scheduling platform for students to search for courses, plan and create schedules, compare their courses with friends, and display their schedules and friends list on user pages.",
             "tools": "GitHub, HTML/CSS/JavaScript, Python, SQLAlchemy, Flask, PostgreSQL",
             "link_view": "View in Github",
-            "link": "https://github.com/jaguan2/PurrfectPath"
+            "link": "https://github.com/kellytton/PurrfectPath"
         },
         {
-            "id": "4",
+            "id": "5",
             "title": "RUSH: Rapid Unix SHell",
             "description": "I engineered a Unix shell in C to execute built-in commands (such as exit, cd, path) and facilitate external commands through child processes with the capacity for parallel command execution. The implementation contains robust output redirection functionality, enabling users to redirect command outputs to files, supporting both file overwriting and error handling for access issues.",
             "tools": "C, Linux",
@@ -97,7 +105,7 @@
             "link": "https://github.com/kellytton/RUSH-Rapid-Unix-SHell"
         },
         {
-            "id": "5",
+            "id": "6",
             "title": "RAID-Mapping",
             "description": "I developed a C program to perform RAID mapping for RAID levels 0, 1, 01, 10, 4, and 5, identifying the specific hard disk and stripe containing a queried sector, along with the disk containing a copy or parity for redundancy if required.",
             "tools": "C, Linux",
@@ -105,7 +113,7 @@
             "link": "https://github.com/kellytton/RAID-Mapping"
         },
         {
-            "id": "6",
+            "id": "7",
             "title": "Facial Recognition",
             "description": "In this machine learning project, I implemented LeNet-5 CNN on Olivetti faces, benchmarking against PCA, LDA, and SVM. Analyzed performance across different test splits and visualized results with CMC curves and confusion matrices.",
             "tools": "Python, Google Colab, scikit-learn, NumPy, Matplotlib, Seaborn",
@@ -113,7 +121,7 @@
             "link": "https://github.com/kellytton/facial-recognition-machine-learning"
         },
         {
-            "id": "7",
+            "id": "8",
             "title": "Facial Recognition and Text Classification",
             "description": "For this deep learning project, I worked in a team of 3. Along with facial recognition tasks, we developed an RNN-based IMDB text classifier, using data augmentation and evaluating performance on a reduced dataset. We explored with various RNN setups, visualizing training/validation plots and confusion matrices.",
             "tools": "Python, Google Colab, scikit-learn, NumPy, TensorFlow, Matplotlib, Seaborn",
@@ -121,7 +129,7 @@
             "link": "https://github.com/kellytton/facial-recognition-and-text-classification"
         },
         {
-            "id": "8",
+            "id": "9",
             "title": "Matching Game",
             "description": "In this Everglow-themed matching game, I created a responsive website using HTML, CSS, and JavaScript, featuring vibrant designs inspired by the K-pop group. The game includes interactive animations and sound effects synced to Everglow’s music. Players match cards related to the group’s members while the game keeps track of the number of flips and matches made throughout the gameplay.",
             "tools": "HTML/CSS/JavaScript",
